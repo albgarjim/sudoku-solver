@@ -26,17 +26,10 @@ def read_dataset(_file):
 # sudoku_list = read_dataset(dataset)
 sudoku_list = [[
     '003800510008700930100305728000200849801906257000500163964127385382659471010400692']]
-# sudoku_list = [[
-#     '346179258187023004520640371965832017470916805813750629790261503631485792254397186']]
 sudoku = create_sudoku_matrix(sudoku_list[0][0])
 
-for row in sudoku:
-    print(row)
-    print()
 
 print(check_sudoku(sudoku))
-
-# _solved_sudoku = human_solvable(sudoku)
 
 _solved_sudoku, solvable = bruteforce(sudoku)
 
@@ -46,5 +39,3 @@ for row in _solved_sudoku:
 
 
 print(check_sudoku(_solved_sudoku))
-
-# print(sudoku)
