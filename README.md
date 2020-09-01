@@ -15,7 +15,7 @@ Algorithm to solve sudokus
   - [Introduction](#introduction)
   - [Results](#results)
   - [Installation](#installation)
-  - [Documentation](#documentation)
+  - [Usage](#usage)
   - [License](#license)
   - [Contact](#contact)
 
@@ -71,7 +71,6 @@ After importing the dataset or declaring a sudoku as a string of numbers, like i
 
 Released under MIT license
 
-## TODO
 
 
 ## Contact
